@@ -19,16 +19,16 @@ getAnovaList = function(reglist_raw, reglist_clean){
 
     return(
         list(
-        "anova_base__time_raw" = anova_base__time_raw,
-        "anova_base__fe_raw" = anova_base__fe_raw,
-        "anova_base__time_fe_raw" = anova_base__time_fe_raw,
-        "anova_fe__time_fe_raw" = anova_fe__time_fe_raw,
-        "anova_time__time_fe_raw" = anova_time__time_fe_raw,
-        "anova_base__time_clean" = anova_base__time_clean,
-        "anova_base__fe_clean" = anova_base__fe_clean,
-        "anova_base__time_fe_clean" = anova_base__time_fe_clean,
-        "anova_fe__time_fe_clean" = anova_fe__time_fe_clean,
-        "anova_time__time_fe_clean" = anova_time__time_fe_clean
+            "anova_base__time_raw" = anova_base__time_raw,
+            "anova_base__fe_raw" = anova_base__fe_raw,
+            "anova_base__time_fe_raw" = anova_base__time_fe_raw,
+            "anova_fe__time_fe_raw" = anova_fe__time_fe_raw,
+            "anova_time__time_fe_raw" = anova_time__time_fe_raw,
+            "anova_base__time_clean" = anova_base__time_clean,
+            "anova_base__fe_clean" = anova_base__fe_clean,
+            "anova_base__time_fe_clean" = anova_base__time_fe_clean,
+            "anova_fe__time_fe_clean" = anova_fe__time_fe_clean,
+            "anova_time__time_fe_clean" = anova_time__time_fe_clean
         )
     )
 }

@@ -17,7 +17,7 @@ generateAnalysis = function() {
         eq_list = equations_list, 
         dat = data
         )
-    
+
     #clean data - note that original data has issues
     data_clean = cleanData(data)
 
@@ -26,7 +26,7 @@ generateAnalysis = function() {
         eq_list = equations_list, 
         dat = data_clean
         )
-    
+
     #ANOVA
     anova_list = getAnovaList(
         reglist_raw,
