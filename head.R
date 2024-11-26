@@ -11,6 +11,7 @@ source(here("results", "generateResults.R"))
 ## create data - run if data needs updating or on first creation
 generateData()
 
+
 ## analysis
 generateAnalysis()
 
